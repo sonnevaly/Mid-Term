@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 800px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 20px;
+}
+
+td {
+  padding: 20px;
+  margin: 10px;
+}
+.header {
+  background-color: rgb(14, 87, 14);
+  padding: 40px;
+  height: 40px;
+  color: white;
+}
+.list2,
+.list4 {
+  background-color: ghostwhite;
+}
+.list1,
+.list3 {
+  background-color: aliceblue;
+}
